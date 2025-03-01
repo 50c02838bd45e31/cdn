@@ -150,7 +150,7 @@
                 results.innerHTML = "";
             $.LoadingOverlay("show");
             try {
-              const scriptUrl = "https://script.google.com/macros/s/AKfycbxVC4IbBWWRyx08JeMLLKWFRlpkqzbd5sw7oX4WDg5lQE1tbK91qfy4GSTli7LW6WvQ/exec";
+              const scriptUrl = "https://script.google.com/macros/s/AKfycbz3TFoUkm3RpDttKH9_QGUvOWuEoMlbzmd2kzIubWbesi_uVEaSvpIeEE_3Ede9WrE/exec";
               const response = await fetch(scriptUrl+"?data=pm25");
               const json = await response.json();
               const res = json.data;
