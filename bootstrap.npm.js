@@ -310,7 +310,7 @@ window.addEventListener("load",
 		let w3_theme_green = document.createElement("link");
 			w3_theme_green.type = "text/css";
 		    w3_theme_green.rel  = "stylesheet";
-			w3_theme_green.href = "https://www.w3schools.com/w3css/4/w3.css";
+			w3_theme_green.href = "https://www.w3schools.com/lib/w3-theme-green.css";
 			head.appendChild(w3_theme_green);
 	}, 
 true);
